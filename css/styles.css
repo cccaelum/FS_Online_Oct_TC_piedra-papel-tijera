@@ -3,14 +3,36 @@ body {
   text-align: center;
   background-color: #f4f4f4;
 }
+
 .boton-jugada {
-  background-color: #3498db;
   color: #fff;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
 }
+
+.boton-jugada:nth-of-type(1){
+  background-color: grey;
+}
+
+.boton-jugada:nth-of-type(2){
+  background-color: whitesmoke;
+  color: black;
+}
+
+.boton-jugada:nth-of-type(3){
+  background-color: black;
+}
+
 #resultados {
   font-size: 20px;
   margin: 20px 0;
+}
+
+#contador-usuario {
+  color: green;
+}
+
+#contador-ordenador {
+  color: red;
 }
